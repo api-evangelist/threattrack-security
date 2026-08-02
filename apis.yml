@@ -1,8 +1,28 @@
 aid: threattrack-security
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/threattrack-security.png
 name: ThreatTrack Security
-description: 'ThreatTrack Security is a company surfaced as a portfolio company of bessemer-venture-partners
-  and added to the API Evangelist network as a stub for enrichment. Sector: cybersecurity. This profile
-  is a lead awaiting the enrichment pipeline.'
+description: 'ThreatTrack Security was a cybersecurity vendor focused on advanced malware
+  analysis and threat intelligence, known for its ThreatAnalyzer dynamic malware sandbox,
+  the ThreatIQ real-time threat intelligence feeds, and the VIPRE endpoint antivirus
+  product line. The company traces to Sunbelt Software (founded 1994), which GFI Software
+  acquired in 2010; GFI spun the security unit out in 2013 to form ThreatTrack Security.
+  ThreatTrack was acquired by Ziff Davis / J2 Global in early 2018 and the brand was
+  folded into VIPRE Security Group, so ThreatTrack no longer operates as an independent
+  company. Its historical developer surface was an OEM/on-premise integration API for
+  ThreatAnalyzer (JSON/XML output) and ThreatIQ intelligence feeds rather than a public,
+  self-service developer platform. It was surfaced as a portfolio company of Bessemer
+  Venture Partners and added to the API Evangelist network for enrichment.'
 url: https://raw.githubusercontent.com/api-evangelist/threattrack-security/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,13 +30,38 @@ x-backed-by:
 - bessemer-venture-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-successor: vipre
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Cybersecurity
+- Threat Intelligence
+- Malware Analysis
+- Sandboxing
+- Endpoint Security
+- Antivirus
 apis: []
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 3
+  pass: local-v1
+common:
+- type: TrustCenter
+  url: security/threattrack-security-trust-center.yml
+- type: VulnerabilityDisclosure
+  url: security/threattrack-security-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/threattrack-security-domain-security.yml
+- type: Security
+  url: https://vipre.com/newsroom/responsible-disclosure-win-win/
+- type: Compliance
+  url: https://vipre.com/about-vipre/compliance-and-certifications/
+- type: Website
+  url: https://www.threattracksecurity.com
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com

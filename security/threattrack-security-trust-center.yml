@@ -1,0 +1,14 @@
+generated: '2026-07-21'
+method: searched
+probe: true
+source: https://vipre.com/about-vipre/compliance-and-certifications/
+url: https://vipre.com/about-vipre/compliance-and-certifications/
+certifications:
+- SOC 2
+- HIPAA
+evidence:
+- source: https://vipre.com/about-vipre/compliance-and-certifications/
+  keywords:
+  - soc 2
+  - soc2
+  - hipaa
