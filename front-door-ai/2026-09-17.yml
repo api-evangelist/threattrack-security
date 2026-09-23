@@ -1,0 +1,36 @@
+# Front Door AI Index — threattrack-security — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: threattrack-security
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: www.threattracksecurity.com
+  final_host: vipre.com
+  ownership: own
+  owner: threattrack-security
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 135
+  host_score: 135
+  density: 43.2
+  words: 3125
+  tiers:
+    agentic: 16
+    core: 111
+    model: 8
+  ambiguous: 14
+  top_terms:
+    AI: 94
+    LLMs: 9
+    agent: 7
+    intelligence: 7
+    ML: 6
+    agentic: 6
+    prompts: 4
+    ChatGPT: 2
+    Claude: 2
+    Gemini: 2
+    autonomous agent: 2
+    fine-tune: 2
